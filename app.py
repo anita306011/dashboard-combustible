@@ -16,7 +16,7 @@ ruta_tarjetas = "FICHERO SOLDRED  Y VIA-T 2025 actual.xlsx"
 # =========================
 # 1. CARGAR OPERACIONES
 # =========================
-archivos_mov = [f for f in os.listdir(ruta_mov) if f.endswith(".xlsx")]
+archivos_mov = [ruta_mov]
 
 if len(archivos_mov) == 0:
     st.error("No hay archivos .xlsx en Movimientos")
