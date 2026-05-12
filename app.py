@@ -9,9 +9,9 @@ st.title("🚛 Dashboard Combustible")
 # =========================
 # RUTAS
 # =========================
-ruta_mov = r"Y:\red\POWER BI\Movimientos"
-ruta_precios = r"Y:\red\POWER BI\Precios_especiales"
-ruta_tarjetas = r"Y:\red\FLOTA\TARJETAS DE REPOSTAJES\TARJETAS SOLRED Y VIA T\FICHERO SOLDRED  Y VIA-T 2025 actual.xlsx"
+ruta_mov = "Operaciones202605.xlsx"
+ruta_precios = "Precios_especiales"
+ruta_tarjetas = "FICHERO SOLDRED  Y VIA-T 2025 actual.xlsx"
 
 # =========================
 # 1. CARGAR OPERACIONES
