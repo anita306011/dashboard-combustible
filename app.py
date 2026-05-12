@@ -9,14 +9,14 @@ st.title("🚛 Dashboard Combustible")
 # =========================
 # RUTAS
 # =========================
-ruta_mov = "Operaciones202605.xlsx"
+ruta_mov = "Movimientos"
 ruta_precios = "Precios_especiales"
 ruta_tarjetas = "FICHERO SOLDRED  Y VIA-T 2025 actual.xlsx"
 
 # =========================
 # 1. CARGAR OPERACIONES
 # =========================
-archivos_mov = [ruta_mov]
+archivos_mov = [f for f in os.listdir(ruta_mov) if f.endswith(".xlsx")]
 
 if len(archivos_mov) == 0:
     st.error("No hay archivos .xlsx en Movimientos")
